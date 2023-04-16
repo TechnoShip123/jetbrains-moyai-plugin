@@ -1,0 +1,32 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.technoship123.jetbrainsmoyaiplugin</id>
+    <name>Moyai Vine Boom SFX</name>
+    <description><![CDATA[
+🗿 This plugin adds vine boom sound effects whenever <code>moyai</code> or <code>🗿</code> is typed.<br>
+It also plays after a run (run button pressed) is finished.<br>
+Check out the GitHub repository <a href="https://github.com/TechnoShip123/jetbrains-moyai-plugin">TechnoShip123/jetbrains-moyai-plugin</a>
+]]></description>
+    <vendor>technoship123</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <resource-bundle>messages.MyBundle</resource-bundle>
+
+    <application-components>
+        <component>
+            <implementation-class>com.technoship123.jetbrainsmoyaiplugin.listeners.AppListenerRegistration</implementation-class>
+        </component>
+    </application-components>
+
+    <project-components>
+        <component>
+            <implementation-class>com.technoship123.jetbrainsmoyaiplugin.listeners.RunListener</implementation-class>
+        </component>
+    </project-components>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <typedHandler implementation="com.technoship123.jetbrainsmoyaiplugin.listeners.MoyaiTypedHandler"/>
+    </extensions>
+
+</idea-plugin>
