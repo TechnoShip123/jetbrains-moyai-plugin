@@ -47,7 +47,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: jetbrains-moyai-plugin
-          path: .
+          path: build/libs/*.jar
         
 
 
