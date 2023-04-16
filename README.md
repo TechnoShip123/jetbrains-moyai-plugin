@@ -8,7 +8,7 @@
 
 🗿 Plays vine boom sound effects when 'moyai' or '🗿' is typed, along with certain IDE actions.
 
-> **Warning**
+> **Warning**<br>
 > This is a roughly made version of the plugin, and there is still lots to do. Come back later for a more polished result.
 
 ## Template ToDo list
