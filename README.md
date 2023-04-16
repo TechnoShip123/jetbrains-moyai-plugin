@@ -6,10 +6,15 @@
 
 ## About
 
-🗿 Plays vine boom sound effects when 'moyai' or '🗿' is typed, along with certain IDE actions.
+<!-- Plugin description -->
+🗿 This plugin adds vine boom sound effects whenever <code>moyai</code> or <code>🗿</code> is typed.<br>
+▶️ It also plays after a run (run button pressed) is finished.<br>
+Check out the GitHub repository: <a href="https://github.com/TechnoShip123/jetbrains-moyai-plugin">TechnoShip123/jetbrains-moyai-plugin</a>
 
 > **Warning**<br>
 > This is a roughly made version of the plugin, and there is still lots to do. Come back later for a more polished result.
+
+<!-- Plugin description end -->
 
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
