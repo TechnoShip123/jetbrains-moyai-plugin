@@ -16,6 +16,8 @@ Check out the GitHub repository: <a href="https://github.com/TechnoShip123/jetbr
 
 <!-- Plugin description end -->
 
+Find installation instructions [down below](#installation)
+
 ## Template ToDo list
 - [x] Create a new [IntelliJ Platform Plugin Template][template] project.
 - [ ] Get familiar with the [template documentation][template].
@@ -29,13 +31,6 @@ Check out the GitHub repository: <a href="https://github.com/TechnoShip123/jetbr
 - [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
 
 ## Installation
-
-- Using IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "jetbrains-moyai-plugin"</kbd> >
-  <kbd>Install Plugin</kbd>
-  
 - Manually:
-
-  Download the [latest release](https://github.com/TechnoShip123/jetbrains-moyai-plugin/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/TechnoShip123/jetbrains-moyai-plugin/releases/latest), or get the latest build by [clicking on the latest build](https://github.com/TechnoShip123/jetbrains-moyai-plugin/actions/workflows/build.yml) and downloading the artifact (need to unzip to get the `.jar` file). Then, install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
