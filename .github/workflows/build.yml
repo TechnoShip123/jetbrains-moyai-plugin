@@ -43,11 +43,12 @@ jobs:
           ./gradlew jar
           cd build/libs
           find . -name "*instrument*" -exec rm -rf {} \;
+          ls -a
           cp *.jar $GITHUB_WORKSPACE/artifacts
       - name: ⬆️📦 Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
-          name: jetbrains-moyai-plugin.jar
+          name: jetbrains-moyai-plugin
           path: $GITHUB_WORKSPACE/artifacts
         
 
