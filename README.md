@@ -1,8 +1,10 @@
 # jetbrains-moyai-plugin
 
-![Build](https://github.com/TechnoShip123/jetbrains-moyai-plugin/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
+![Made for Jetbrains IDEs](https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/TechnoShip123/jetbrains-moyai-plugin/build.yml?logo=gradle&style=for-the-badge)
+
+<!-- [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID) -->
+<!-- [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID) -->
 
 ## About
 
